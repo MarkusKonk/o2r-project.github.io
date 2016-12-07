@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Investigating Docker and Rdd
+title: Investigating Docker and R
 categories:
   - introduction
   - overview
