@@ -29,9 +29,9 @@ Rather than running R inside Docker containers, it can be beneficial to call Doc
 
 [**Selenium**](http://www.seleniumhq.org/) provides tools for browser automation, which are also [available as Docker images](https://hub.docker.com/u/selenium/). They can be used, amongst others, for testing web applications or controlling a headless web browser from your favorite programming language. In [this tutorial](https://rpubs.com/johndharrison/RSelenium-Docker), you can see how and why you should use RSelenium to interact with your Selenium containers.
 
-[**googleComputeEngineR**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API. It includes a function called docker_run that starts a Docker container in a Google Cloud VM and executes R code in it. Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples. 
+[**googleComputeEngineR**](https://cloudyr.github.io/googleComputeEngineR/) provides an R interface to the Google Cloud Compute Engine API. It includes a function called docker_run that starts a Docker container in a Google Cloud VM and executes R code in it. Read [this article](https://cloudyr.github.io/googleComputeEngineR/articles/docker-ssh-futures.html) for details and examples. There are similar amibitions to implement docker capabilities in the [**analogsea package**](https://github.com/sckott/analogsea) that interfaces the Digital Ocean API.
 
-googleComputeEngineR uses functions from the [**harbor package**](https://github.com/wch/harbor/) for R. You should have a look at it, because it may help you to control your own Docker containers that run either locally or in remote.
+googleComputeEngineR abd analogsea use functions from the [**harbor package**](https://github.com/wch/harbor/) for R. You should have a look at it, because it may help you to control your own Docker containers that run either locally or in remote.
 
 ## R and Docker for complex web applications
 Docker, in general, may help you to build complex and scalable web applications with R. 
