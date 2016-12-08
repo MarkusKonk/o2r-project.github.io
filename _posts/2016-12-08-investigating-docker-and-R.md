@@ -22,7 +22,7 @@ The R package [**dockertest**](https://github.com/traitecoevo/dockertest) makes 
 ## Dockerizing R extensions
 Some works are dedicated to *dockerizing* R extensions. The [**liftr package**](http://liftr.me/) for R help lets users enhance Rmd files with YAML-metadata, wich enables rendering R Markdown documents in Docker containers. Liftr also supports  [Rabix](https://www.rabix.org/), a Docker-based toolkit for portable bioinformatics workflows. That means that users can have Rabix workflows run inside the container and have the results integrated directly into the final document. 
 
-Another extension you may want to *dockerize* is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
+Another extension you may want to dockerize is **Shiny**. Flavio Barros dedicated two articles on R-bloggers to this topic: [Dockerizing a Shiny App](https://www.r-bloggers.com/dockerizing-a-shiny-app/) and [Share Shiny apps with Docker and Kitematic](https://www.r-bloggers.com/share-your-shiny-apps-with-docker-and-kitematic/).
 
 ## Controll docker containers with R
 Rather than running R inside Docker containers, it can be beneficial to call Docker containers from inside R. This is what the packages RSelenium and googleComputeEnginer do. 
